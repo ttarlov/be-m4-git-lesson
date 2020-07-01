@@ -5,3 +5,5 @@ class Admin::BaseController < ApplicationController
     render file: 'public/404.html', status: 404, layout: false unless current_admin?
   end
 end
+
+// Testing Rebase workflow 
