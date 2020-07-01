@@ -26,3 +26,5 @@ class Admin::UsersController < Admin::BaseController
     params.require(:user).permit(:email, :first_name, :last_name, :address, :role)
   end
 end
+
+// Another test for rebase workflow 
